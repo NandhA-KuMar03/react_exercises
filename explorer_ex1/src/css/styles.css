@@ -1,0 +1,124 @@
+header{
+    padding: 23px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ImgContainer{
+    display: inline-block;
+}
+.ImgContainer img{
+    width: 150px;
+}
+.MenuContainer{
+    display: flex;
+    column-gap: 4em;
+    font-weight: 600;
+}
+/* Promo and Explore Component Styling */
+.PromoComponent{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 90px;
+}
+.BannerImage{
+    width: 55%;
+}
+.BannerImage img{
+    width: 100%;
+}
+.PromoComponentLeftPane{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    justify-content: center;
+}
+.PromoComponentLeftPane h2{
+    margin: 90px 0 -75px;
+}
+.PromoComponentLeftPane h3{
+    font-size: 80px;
+    font-weight: 300;
+}
+.PromoComponentLeftPane span{
+    font-weight: 500;
+}
+.PromoComponentLeftPane button{
+    width: 30%;;
+    font-size: 16px;
+    padding: 12px 23px;
+    color: #ffffff;
+    border-style: unset;
+    font-weight: 700;
+    background-color:  #7a1655;
+}
+.PromoComponentLeftPane select{
+    z-index: 1;
+    padding: 20px;
+    width: 130%;
+}
+
+/* Destination component styling */
+.DestinationsComponentHeader{
+    width: 85.5%;
+    margin: auto;
+}
+.DestinationsComponentHeaderTitle{
+    margin: 0;
+    font-size: 45px;
+}
+.DestinationsComponentHeaderContent{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.DestinationsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 5em;
+    width: 88%;
+    margin: 65px auto 75px;
+}
+.Box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 31.33%;
+}
+.Box h3{
+    color: #000000;
+    padding: 10px 0;
+    margin: 0;
+}
+.Box h4{
+    color: #000000;
+    padding: 10px 0;
+    margin: 0;
+}
+.Box p{
+    color: #000000;
+    padding: 10px 0 22px;
+    margin: 0;
+    height: 151px;
+    overflow: hidden;
+}
+.TitleDescription{
+    font-weight: 300;
+    font-size: 36px;
+}
+.ExploreButton{
+    width: 35%;;
+    font-size: 16px;
+    padding: 12px 23px;
+    color: #ffffff;
+    border-style: unset;
+    font-weight: 700;
+    background-color:  #7a1655;
+}
+.Description{
+    font-weight: 300;
+    padding: 2px;
+    font-size: 20px;
+    line-height: 1.2;
+}
